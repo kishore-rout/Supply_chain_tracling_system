@@ -1,2 +1,94 @@
-# Supply_chain_tracling_system
-This Supply Chain Tracking System is a modular, object-oriented solution designed for efficiently managing and tracking shipments across a logistics network. The system follows a clean separation of concerns, structured around several interconnected components to ensure scalability, maintainability, and robust error handling.
+# Supply Chain Tracking System
+
+
+
+supply\_chain\_tracking/
+
+│── main.py               # Entry point (menu-driven program)
+
+│── shipment.py           # Shipment class
+
+│── tracker.py            # Tracker class to manage multiple shipments
+
+│── report.py             # Reporting and history
+
+│── exceptions.py         # Custom exceptions
+
+│── utils.py              # Helper utilities
+
+│── data/                 
+
+│   └── sample\_data.json  # Optional dataset
+
+│── README.md             # Project details + instructions
+
+
+
+
+
+\## Domain
+
+Logistics \& Supply Chain
+
+
+
+\## Problem Statement
+
+Create a system to track shipments across supply chain stages.  
+
+Each shipment should have:
+
+\- A unique ID
+
+\- Current status
+
+\- History of updates
+
+
+
+\## Learning Goals
+
+\- Understand object-oriented programming (OOP)
+
+\- Work with multiple classes (`Shipment`, `Tracker`)
+
+\- Implement history tracking with timestamps
+
+\- Practice file handling \& reporting
+
+\- Handle custom exceptions
+
+
+
+\## Tasks for Students
+
+1\. Implement the \*\*Shipment class\*\* (ID, status, history).
+
+2\. Implement the \*\*Tracker class\*\* (manage multiple shipments).
+
+3\. Build a menu in `main.py` to:
+
+&nbsp;  - Add shipments
+
+&nbsp;  - Update statuses
+
+&nbsp;  - View history
+
+&nbsp;  - Generate reports
+
+4\. Use `utils.py` for ID generation.
+
+5\. Add error handling with custom exceptions.
+
+
+
+\## Extended Scope : If students are able to complete then they can write the other below:
+
+\- Export reports to a file (`report.py`)
+
+\- Load and save data in JSON format
+
+\- Validate status (only allow: "Created", "Dispatched", "In Transit", "Delivered")
+
+
+
