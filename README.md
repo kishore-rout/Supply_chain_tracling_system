@@ -60,7 +60,7 @@ Each shipment should have:
 
 
 
-\## Tasks for Students
+\## proess for supplaychain tracking system.
 
 1\. Implement the \*\*Shipment class\*\* (ID, status, history).
 
@@ -82,13 +82,9 @@ Each shipment should have:
 
 
 
-\## Extended Scope : If students are able to complete then they can write the other below:
-
-\- Export reports to a file (`report.py`)
-
-\- Load and save data in JSON format
 
 \- Validate status (only allow: "Created", "Dispatched", "In Transit", "Delivered")
+
 
 
 
